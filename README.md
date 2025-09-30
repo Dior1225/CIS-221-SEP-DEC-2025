@@ -139,33 +139,41 @@ template = """
 </html>
 """
 
-# Fetch inventory data from SQLite
-def get_inventory():
-    conn = sqlite3.connect('fashion.db')
-    cursor = conn.cursor()
-    cursor.execute("SELECT item_name, price, quantity_bought, quantity_sold FROM inventory")
-    items = cursor.fetchall()
-    conn.close()
-    data = []
-    total_revenue = 0
-    for name, price, bought, sold in items:
-        stock = bought - sold
-        revenue = price * sold
-        total_revenue += revenue
-        data.append({
-            'name': name,
-            'price': round(price, 2),
-            'bought': bought,
-            'sold': sold,
-            'stock': stock,
-            'revenue': round(revenue, 2)
-        })
-    return data, round(total_revenue, 2)
+# 👗 Fashion Store – CIS-221 Project
 
-@app.route('/')
-def home():
-    items, total = get_inventory()
-    return render_template_string(template, items=items, total=total)
+This is a learning project for CIS-221 (SEP–DEC 2025). It showcases fashion items, upcoming sales, and tracks inventory using a database.
 
-if __name__ == '__main__':
-    app.run(debug=True)
+---
+
+## 💡 Features
+
+- 🛍️ Product grid with images and prices
+- 📅 Upcoming sale offers in a structured table
+- 📦 Inventory tracking (items bought, sold, in stock, revenue)
+- ✨ Eye-catching design with CSS
+- 🐍 Backend powered by Flask and SQLite
+
+---
+
+## 📁 File Overview
+
+| File            | Purpose                                      |
+|-----------------|----------------------------------------------|
+| `app.py`        | Flask app with embedded HTML/CSS template    |
+| `fashion.db`    | SQLite database storing inventory data       |
+| `README.md`     | Project description and setup instructions   |
+
+---
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/Dior1225/CIS-221-SEP-DEC-2025.git
+   cd CIS-221-SEP-DEC-2025
+
+2. Install Flask:
+   ```bash
+   pip install flask
+
+python app.py
+
+http://127.0.0.1:5000/
