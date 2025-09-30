@@ -113,7 +113,7 @@ template = """
   </section>
 
   <section class="inventory">
-    <h2>📦 Inventory Tracker</h2>
+    <h2>  Inventory Tracker</h2>
     <table>
       <tr>
         <th>Item</th><th>Price</th><th>Bought</th><th>Sold</th><th>In Stock</th><th>Revenue</th>
@@ -139,23 +139,23 @@ template = """
 </html>
 """
 
-# 👗 Fashion Store – CIS-221 Project
+#  Fashion Store – CIS-221 Project
 
 This is a learning project for CIS-221 (SEP–DEC 2025). It showcases fashion items, upcoming sales, and tracks inventory using a database.
 
 ---
 
-## 💡 Features
+##  Features
 
-- 🛍️ Product grid with images and prices
-- 📅 Upcoming sale offers in a structured table
-- 📦 Inventory tracking (items bought, sold, in stock, revenue)
-- ✨ Eye-catching design with CSS
-- 🐍 Backend powered by Flask and SQLite
+-  Product grid with images and prices
+-  Upcoming sale offers in a structured table
+-  Inventory tracking (items bought, sold, in stock, revenue)
+-  Eye-catching design with CSS
+-  Backend powered by Flask and SQLite
 
 ---
 
-## 📁 File Overview
+##  File Overview
 
 | File            | Purpose                                      |
 |-----------------|----------------------------------------------|
