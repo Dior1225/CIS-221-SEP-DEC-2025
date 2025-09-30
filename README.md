@@ -1,9 +1,5 @@
 # CIS-221-SEP-DEC-2025
-For learning 
-from flask import Flask, render_template_string
-import sqlite3
-
-app = Flask(__name__)
+For learning
 
 # HTML + CSS + Inventory Template
 template = """
