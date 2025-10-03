@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fashion Store - Justine</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Welcome to Fashion Store</h1>
+    <p>Your one-stop shop for trendy fashion.</p>
+  </header>
+
+  <section class="products">
+    <h2>Our Collection</h2>
+    <div class="product-grid">
+      <div class="product">Shirt - $20</div>
+      <div class="product">Jeans - $40</div>
+      <div class="product">Sneakers - $60</div>
+      <div class="product">Jacket - $80</div>
+    </div>
+  </section>
+
+  <section class="offers">
+    <h2>Upcoming Sales</h2>
+    <table>
+      <tr><th>Sale</th><th>Date</th><th>Discount</th></tr>
+      <tr><td>Summer Sale</td><td>Oct 10, 2025</td><td>30% off</td></tr>
+      <tr><td>Black Friday</td><td>Nov 28, 2025</td><td>50% off</td></tr>
+    </table>
+    <p>Shop with us and enjoy the best deals with quality assurance!</p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Fashion Store. All rights reserved.</p>
+  </footer>
+</body>
+</html>
