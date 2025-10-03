@@ -1,6 +1,6 @@
 # **Fashion Store Project**
 
-## 📌 Overview
+# Overview
 The Fashion Store project is divided into two parts:
 
 1. **Justine-Frontend** – A user-friendly fashion store website that showcases different fashion options, upcoming sales, and benefits of purchasing.  
@@ -8,33 +8,33 @@ The Fashion Store project is divided into two parts:
 
 ---
 
-## 🛠️ Justine-Frontend
+# Justine-Frontend
 
-### Description
+# Description
 - Displays fashion products in a grid layout.  
 - Shows upcoming sale offers in a structured table.  
 - Includes a footer with copyright marks.  
 
-### Technologies Used
+# Technologies Used
 - HTML5  
 - CSS3  
 
-### Files
+# Files
 - `Justine-Frontend/index.html`  
 - `Justine-Frontend/style.css`  
 
-### How to Run
+# How to Run
 1. Download the repo.  
 2. Open `Justine-Frontend/index.html` in your browser.  
 
-### Due Date
+# Due Date
 **1 October 2025**  
 
 ---
 
-## 🛠️ Dior-Backend
+# Dior-Backend
 
-### Description
+# Description
 - Tracks store inventory and sales data.  
 - Displays:
   - Total stock  
@@ -42,16 +42,16 @@ The Fashion Store project is divided into two parts:
   - Remaining stock  
   - Revenue earned  
 
-### Technologies Used
+# Technologies Used
 - Node.js  
 - Express.js  
 - SQLite  
 
-### Files
+# Files
 - `Dior-Backend/server.js`  
 - `Dior-Backend/fashion.sql`  
 
-### How to Run
+# How to Run
 1. Install dependencies:
    ```bash
    npm install express sqlite
