@@ -27,10 +27,8 @@ The Fashion Store project is divided into two parts:
 1. Download the repo.  
 2. Open `Justine-Frontend/index.html` in your browser.  
 
-# Due Date
-**1 October 2025**  
 
----
+
 
 # Dior-Backend
 
@@ -54,7 +52,7 @@ The Fashion Store project is divided into two parts:
 # How to Run
 1. Install dependencies:
    ```bash
-   npm install express sqlite
+   npm install express sqlite3
    sqlite3 fashion.db < Dior-Backend/fashion.sql
    node Dior-Backend/server.js
    http://localhost:3000/inventory
